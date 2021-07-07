@@ -1,0 +1,61 @@
+<html>
+     <head><title>forms.html</title>
+		 <script type = "text/javascript" >
+		   function preventBack(){window.history.forward();}
+			setTimeout("preventBack()", 0);
+			window.onunload=function(){null};
+		</script>
+	 </head>
+	      <body>
+		       <h1>In this we will leran how to make a form in our webpage</h1>
+			   <br>
+			   </br>
+			   <h1><emp>FEEDBACK FORM</emp></h1>
+               <form>
+			   <fieldset>
+			   <legend><strong>Enter complete details</strong></legend><br>
+			   First Name:
+			   <input type="text" name="first name"><br><br>
+			   Last Name:
+			   <input type="text" name="last name"><br><br>
+			   Age:
+			   Under 18 <input type="radio" name="age">
+			   B/w 18-60<input type="radio" name="age">
+			   Above 60<input type="radio" name="age"><br><br>
+			   Qualification:
+			   <select name="Qualification">
+			   <option value="B.TECH">B.TECH</option>
+			   <option value="M.TECH">M.TECH</option>
+			   <option value="B.SC">B.SC</option>
+			   <option value="M.SC">M.SC</option>
+			   <option value="12th PASS " selected>12th PASS</option>
+			   </select><br>
+			   <br>
+			   Interest:
+			   <input type="checkbox" name="interest"> Cricket
+			   <input type="checkbox" name="interest"> Football
+			   <input type="checkbox" name="interest"> Hockey
+			   <input type="checkbox" name="interest"> Logical Maths<br><br>
+               E-mail Adress:
+			   <input type="email" name="email id"><br><br>
+			   Permanent Adress:
+			   <input type="address" name="address"><br><br>
+			   Date of Birth:
+               <input type="date" name="birth date"><br><br>
+               Colour:
+               <input type="color" name="colour"><br><br>
+               Contact No.:
+               <input type="number" name="contact no."><br><br>
+               URL:
+               <input type="url" name="enterurl"><br><br>
+               Range:
+               <input type="range" name="rating" min="0" max="10"><br><br>			   
+			   Search:
+			   <input type="search" name="search"><br><br>
+			   <input type="submit" value="submit"><input type="reset">
+			   
+			   </fieldset>
+			   
+               </form>			   
+		  </body>
+</html>		  

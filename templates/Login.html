@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>LOGIN FORM</title>
+
+        <link rel="stylesheet" text="text/css" href="/static/css-20200613T143832Z-001/css/style.css">
+</head>
+
+    <body class="Sign-Up-Form">
+        <img src="/static/user-Icon.png">
+        <h1>LOGIN FORM</h1>
+
+        <form action="Checklogin">
+
+            <input type="email" class="input-box" name="email" placeholder="Your Email">
+            <input type="password" class="input-box" name="pwd" placeholder="Your password">
+
+            <p><span><input type="checkbox"></span>I Agree to the terms of services.</p>
+            <button type="submit" on class="signup-btn">LOGIN</button>
+            <hr>
+            <p style="color:red">{{demo}}</p>
+        </form>
+        <!-- <script>
+              function test() {
+              var pwd = document.getElementById("pwd").value;
+              var cpwd = document.getElementById("cpwd").value;
+              if(pwd == cpwd)
+              {
+              return true;
+              }
+              else
+              {
+              alert("Password and Confirm pssword are incorrect")
+              return false;
+              }
+             }
+          </script>-->
+    </body>
+
+    </html>
